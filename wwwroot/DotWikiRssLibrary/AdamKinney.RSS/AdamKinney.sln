@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdamKinney.RSS", "AdamKinney.RSS.csproj", "{A2A2E2C9-7603-42D4-BC7A-5538EF55E062}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A2A2E2C9-7603-42D4-BC7A-5538EF55E062}.Debug.ActiveCfg = Debug|.NET
+		{A2A2E2C9-7603-42D4-BC7A-5538EF55E062}.Debug.Build.0 = Debug|.NET
+		{A2A2E2C9-7603-42D4-BC7A-5538EF55E062}.Release.ActiveCfg = Release|.NET
+		{A2A2E2C9-7603-42D4-BC7A-5538EF55E062}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

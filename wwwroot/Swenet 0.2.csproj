@@ -1,0 +1,1975 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{A4A7D906-827A-44AD-9BDD-7883E02C7663}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Swenet 0.2"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "SwenetDev"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "AspNetForums"
+                    Project = "{E663538D-8A0A-4CE8-8232-2576D4DC2B0D}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Accessibility"
+                    AssemblyName = "Accessibility"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\Accessibility.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "about.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "about.aspx.cs"
+                    DependentUpon = "about.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "about.aspx.resx"
+                    DependentUpon = "about.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AccountCanceled.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AccountCanceled.aspx.cs"
+                    DependentUpon = "AccountCanceled.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AccountCanceled.aspx.resx"
+                    DependentUpon = "AccountCanceled.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "addMaterialRating.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "addMaterialRating.aspx.cs"
+                    DependentUpon = "addMaterialRating.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "addMaterialRating.aspx.resx"
+                    DependentUpon = "addMaterialRating.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminPage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminPage.aspx.cs"
+                    DependentUpon = "AdminPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminPage.aspx.resx"
+                    DependentUpon = "AdminPage.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "browseModules.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "browseModules.aspx.cs"
+                    DependentUpon = "browseModules.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "browseModules.aspx.resx"
+                    DependentUpon = "browseModules.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChangePassword.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ChangePassword.aspx.cs"
+                    DependentUpon = "ChangePassword.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChangePassword.aspx.resx"
+                    DependentUpon = "ChangePassword.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "editModule.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "editModule.aspx.cs"
+                    DependentUpon = "editModule.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "editModule.aspx.resx"
+                    DependentUpon = "editModule.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "editorActionEmail.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "editorActionEmail.aspx.cs"
+                    DependentUpon = "editorActionEmail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "editorActionEmail.aspx.resx"
+                    DependentUpon = "editorActionEmail.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditorsPage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditorsPage.aspx.cs"
+                    DependentUpon = "EditorsPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditorsPage.aspx.resx"
+                    DependentUpon = "EditorsPage.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "editUserInfo.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "editUserInfo.aspx.cs"
+                    DependentUpon = "editUserInfo.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "editUserInfo.aspx.resx"
+                    DependentUpon = "editUserInfo.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "error.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "error.aspx.cs"
+                    DependentUpon = "error.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "error.aspx.resx"
+                    DependentUpon = "error.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "feedback.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "feedback.aspx.cs"
+                    DependentUpon = "feedback.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "feedback.aspx.resx"
+                    DependentUpon = "feedback.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "forgotpwd.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "forgotpwd.aspx.cs"
+                    DependentUpon = "forgotpwd.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "forgotpwd.aspx.resx"
+                    DependentUpon = "forgotpwd.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Globals.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "login.aspx.cs"
+                    DependentUpon = "login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "login.aspx.resx"
+                    DependentUpon = "login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "materialRatings.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "materialRatings.aspx.cs"
+                    DependentUpon = "materialRatings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "materialRatings.aspx.resx"
+                    DependentUpon = "materialRatings.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ModuleManagement.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ModuleManagement.aspx.cs"
+                    DependentUpon = "ModuleManagement.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModuleManagement.aspx.resx"
+                    DependentUpon = "ModuleManagement.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ModuleRatingsControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModulesControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "moduleSubmissionTutorial.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "moduleSubmissionTutorial.aspx.cs"
+                    DependentUpon = "moduleSubmissionTutorial.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "moduleSubmissionTutorial.aspx.resx"
+                    DependentUpon = "moduleSubmissionTutorial.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MyAccount.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MyAccount.aspx.cs"
+                    DependentUpon = "MyAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MyAccount.aspx.resx"
+                    DependentUpon = "MyAccount.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "popupHelp.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "popupHelp.aspx.cs"
+                    DependentUpon = "popupHelp.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "popupHelp.aspx.resx"
+                    DependentUpon = "popupHelp.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "redirect.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "redirect.aspx.cs"
+                    DependentUpon = "redirect.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "redirect.aspx.resx"
+                    DependentUpon = "redirect.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "register.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "register.aspx.cs"
+                    DependentUpon = "register.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "register.aspx.resx"
+                    DependentUpon = "register.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "search.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "search.aspx.cs"
+                    DependentUpon = "search.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "search.aspx.resx"
+                    DependentUpon = "search.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "searchModules.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "searchModules.aspx.cs"
+                    DependentUpon = "searchModules.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "searchModules.aspx.resx"
+                    DependentUpon = "searchModules.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "style.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uploadModule.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uploadModule.aspx.cs"
+                    DependentUpon = "uploadModule.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "uploadModule.aspx.resx"
+                    DependentUpon = "uploadModule.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "uploadResult.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uploadResult.aspx.cs"
+                    DependentUpon = "uploadResult.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "uploadResult.aspx.resx"
+                    DependentUpon = "uploadResult.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserManagement.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserManagement.aspx.cs"
+                    DependentUpon = "UserManagement.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserManagement.aspx.resx"
+                    DependentUpon = "UserManagement.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UsersControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewComments.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ViewComments.aspx.cs"
+                    DependentUpon = "ViewComments.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewComments.aspx.resx"
+                    DependentUpon = "ViewComments.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "viewModule.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "viewModule.aspx.cs"
+                    DependentUpon = "viewModule.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "viewModule.aspx.resx"
+                    DependentUpon = "viewModule.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "viewUserInfo.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "viewUserInfo.aspx.cs"
+                    DependentUpon = "viewUserInfo.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "viewUserInfo.aspx.resx"
+                    DependentUpon = "viewUserInfo.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Comparers\DateComparer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Comparers\SubmitterComparer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\AuthorsControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\AuthorsControl.ascx.cs"
+                    DependentUpon = "AuthorsControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\AuthorsControl.ascx.resx"
+                    DependentUpon = "AuthorsControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\CategoriesControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\CategoriesControl.ascx.cs"
+                    DependentUpon = "CategoriesControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\CategoriesControl.ascx.resx"
+                    DependentUpon = "CategoriesControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\CategoriesSelect.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\CategoriesSelect.ascx.cs"
+                    DependentUpon = "CategoriesSelect.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\CategoriesSelect.ascx.resx"
+                    DependentUpon = "CategoriesSelect.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\DataEditControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\EditUserInfoControl.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\EditUserInfoControl.ascx.cs"
+                    DependentUpon = "EditUserInfoControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\EditUserInfoControl.ascx.resx"
+                    DependentUpon = "EditUserInfoControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\FacultyConfirmation.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\FacultyConfirmation.ascx.cs"
+                    DependentUpon = "FacultyConfirmation.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\FacultyConfirmation.ascx.resx"
+                    DependentUpon = "FacultyConfirmation.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\Header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\Header.ascx.cs"
+                    DependentUpon = "Header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\Header.ascx.resx"
+                    DependentUpon = "Header.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\IEditControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\MaterialsControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\MaterialsControl.ascx.cs"
+                    DependentUpon = "MaterialsControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\MaterialsControl.ascx.resx"
+                    DependentUpon = "MaterialsControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\ObjectivesControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\ObjectivesControl.ascx.cs"
+                    DependentUpon = "ObjectivesControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\ObjectivesControl.ascx.resx"
+                    DependentUpon = "ObjectivesControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\PrerequisitesControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\PrerequisitesControl.ascx.cs"
+                    DependentUpon = "PrerequisitesControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\PrerequisitesControl.ascx.resx"
+                    DependentUpon = "PrerequisitesControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\RateModuleControl.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\RateModuleControl.ascx.cs"
+                    DependentUpon = "RateModuleControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\RateModuleControl.ascx.resx"
+                    DependentUpon = "RateModuleControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\ResourcesControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\ResourcesControl.ascx.cs"
+                    DependentUpon = "ResourcesControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\ResourcesControl.ascx.resx"
+                    DependentUpon = "ResourcesControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\SecretQuestion.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\SecretQuestion.ascx.cs"
+                    DependentUpon = "SecretQuestion.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\SecretQuestion.ascx.resx"
+                    DependentUpon = "SecretQuestion.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\SeeAlsoControl.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\SeeAlsoControl.ascx.cs"
+                    DependentUpon = "SeeAlsoControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\SeeAlsoControl.ascx.resx"
+                    DependentUpon = "SeeAlsoControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\Sidebar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\Sidebar.ascx.cs"
+                    DependentUpon = "Sidebar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\Sidebar.ascx.resx"
+                    DependentUpon = "Sidebar.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\SubmitterRequestControl.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\SubmitterRequestControl.ascx.cs"
+                    DependentUpon = "SubmitterRequestControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\SubmitterRequestControl.ascx.resx"
+                    DependentUpon = "SubmitterRequestControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\TopicsControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\TopicsControl.ascx.cs"
+                    DependentUpon = "TopicsControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\TopicsControl.ascx.resx"
+                    DependentUpon = "TopicsControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\ViewUserInfoControl.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\ViewUserInfoControl.ascx.cs"
+                    DependentUpon = "ViewUserInfoControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\ViewUserInfoControl.ascx.resx"
+                    DependentUpon = "ViewUserInfoControl.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DBAdapter\Authors.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Categories.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Email.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Emails.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\FacultyRequestInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\FacultyRequests.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Info.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\MaterialComments.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Materials.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\ModuleGroups.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\ModuleRatingInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\ModuleRatings.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Modules.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Objectives.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Prerequisites.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Questions.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Resources.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\SeeAlso.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\SubmitterRequestInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\SubmitterRequests.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\Topics.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DBAdapter\UserAccounts.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forums\AddPost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\EditPost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Logout.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\ShowForum.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\ShowForumGroup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\ShowPost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\transform.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\CreateEditForumGroup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\CreateEditRole.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\CreateNewForum.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\CreateUser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\EditForum.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\EditPost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\EditUser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\EmailAdmin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\ForumAdmin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\ForumGroups.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\ForumModerators.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\Forums.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\MessageAdmin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\ShowPosts.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\UserAdmin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Admin\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\DeletePost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\EditPost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\ModerateForum.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\ModerationHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\ModerationQueueStatus.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\MovePost.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Moderate\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Msgs\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\Reports\Users.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\search\Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\administration_icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\dn.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\editpost.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\forum_private.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\forum_private_newposts.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\forum_status.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\forum_status_new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\forumHeaderBackground.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\forumHeaderBackgroundAlternate.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_admin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_home.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_login.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_memberlist.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_moderate.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_myforums.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_profile.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_register.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_search.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_mini_topic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\icon_stats.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\newpost.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\newtopic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\node.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\title.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-announce.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-announce_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-locked.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-locked_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-pinned&locked.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-pinned&locked_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-pinned.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-pinned_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\topic-popular.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\user_IsOffline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\user_IsOnline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\users_icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\users_moderator.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\users_top100.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\users_top25.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\users_top50.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-10.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-11.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-12.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-13.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-14.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-5.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-6.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-7.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-8.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\images\emotions\emotion-9.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-AdminCreateAccount.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-AdminEditUser.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-AdminPickUser.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-AdminShowAllUsers.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-CreateEditForumGroup.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-CreateEditForums.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-CreateEditRole.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-CreateNewAccount.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-DeletePost.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-DisplayUserInfo.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-EditUserInfo.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-Email.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-Login.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-LoginSmall.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-Message.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-MessageAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-MovePost.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-MyForums.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-Navigation.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-Post.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-SearchOptions.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-SearchRedirect.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-SearchSmall.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-SearchView.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-ShowAllUsers.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-ShowForum.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-ShowPostList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-ShowPostThreaded.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-Statistics.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-WhereAmI.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Skin-WhoIsOnline.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-ModeratedForums.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-ModeratePost.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-ModerationMenu.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-ModerationView.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-Navigation.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-Statistics.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Skins\Moderation\Skin-WhoIsOnline.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\style\default.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\default\Templates\placeholder.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\administration_icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\dn.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\editpost.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\forum_private.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\forum_private_newposts.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\forum_status.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\forum_status_new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\forumHeaderBackground.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\forumHeaderBackgroundAlternate.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_admin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_home.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_login.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_memberlist.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_moderate.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_myforums.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_profile.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_register.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_search.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_mini_topic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\icon_stats.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\newpost.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\newtopic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\node.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\title.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-announce.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-announce_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-locked.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-locked_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-pinned&locked.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-pinned&locked_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-pinned.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-pinned_notread.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\topic-popular.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\user_IsOffline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\user_IsOnline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\users_icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\users_moderator.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\users_top100.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\users_top25.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\users_top50.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-10.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-11.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-12.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-13.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-14.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-5.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-6.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-7.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-8.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\images\emotions\emotion-9.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Skins\Skin-SearchRedirect.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Skins\Skin-ShowForum.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\style\default.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Templates\ForumGroupRepeater-Footer.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Templates\ForumGroupRepeater-Header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Templates\ForumGroupRepeater-Item.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Templates\ForumRepeater-AlternatingItem.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\skins\LightBlue\Templates\ForumRepeater-Item.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\ChangePassword.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\CreateUser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\EditUserProfile.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\EmailForgottenPassword.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\MyForums.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\ShowAllUsers.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\UserProfile.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forums\User\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ZipLib\ZipException.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Checksums\Adler32.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Checksums\CRC32.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Checksums\IChecksum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Checksums\StrangeCRC.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\ZipConstants.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\ZipEntry.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\ZipFile.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\ZipInputStream.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\ZipOutputStream.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\Deflater.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\DeflaterConstants.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\DeflaterEngine.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\DeflaterHuffman.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\DeflaterPending.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\Inflater.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\InflaterDynHeader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\InflaterHuffmanTree.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\PendingBuffer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\Streams\InflaterInputStream.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\Streams\OutputWindow.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ZipLib\Zip\Compression\Streams\StreamManipulator.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
